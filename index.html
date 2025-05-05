@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="principal">
+        <div class="form">
+            <form action="#">
+                <div class="titulo">
+                    <h2>Formulario Exclusão e Inclusão</h2>
+                </div>
+                <div class="campo">
+                    <p>Escolha um item da lista </p>
+                    <div class="lista">
+                        <select name="itens" id="itens" d="itens" size="10">
+                            <!-- options : inicializar a caixa de listagem -->
+                            <option value=""></option>
+                        
+
+                        </select>
+                        <br><br>
+                        <div class="button">
+                            <input type="button" value="Adicionar Item" onclick="adicionar();">
+                            <button type="button" onclick="remover();">Remover Item</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
