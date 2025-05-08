@@ -1,0 +1,2 @@
+Utilizando o HTML e CSS para construir a interface de forma simples e objetiva.
+O JavaScript utilizei duas funções Adicionar e Remover, com algumas estruturas de verificação para caso o usuário não adicionou nenhum item ou não selecionou para excluir, criando elementos "option", e uma estrutura condicional " if " para efetuar ou não a exclusão.
