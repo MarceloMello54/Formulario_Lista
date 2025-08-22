@@ -1,28 +1,29 @@
+
 body {
-    padding-left: 170px;
+    padding-left: 1px;
     align-items: center;
     box-sizing: border-box;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(169, 177, 168);
 }
 
 .titulo {
     margin-right: 20vh;
-    font-size: 35px;
+    font-size: 20px;
     align-content: center;
-    width: 6000px;
-    color: aliceblue;
+    width: 6000vh;
+    color: rgb(3, 3, 3);
 }
 
 .campo {
     margin: 10px;
     width: 600px;
-    padding-left: 150px;
+    padding-left: 15px;
 
     #itens {
         color: antiquewhite;
         width: 300px;
-        height: 400px;
-        background-color: rgb(0, 0, 0);
+        height: 500px;
+        background-color: rgba(34, 17, 3, 0.621);
         border-radius: 10px;
         font-size: 15px;
         border-radius: 10px;
@@ -30,6 +31,11 @@ body {
     }
 
     .button{
-        margin-left: 40px;
+        margin-left: 4px;
+    }
+}
+@media (max-widtd:480px){
+    .body{
+        padding: 60px 30px;
     }
 }
